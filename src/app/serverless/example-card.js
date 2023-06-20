@@ -10,7 +10,7 @@ exports.main = async (context = {}, sendResponse) => {
     "content": [
 	   {
     "type": "image",
-    "src": "https://immo-sign.com/wp-content/uploads/2021/12/logo2.png",
+    "src": "https://www.relations-publiques.pro/wp-content/uploads/2020/07/20200730095048-p1-document-qouh.png",
     "alt": "Immo sign logo",
     "onClick": {
       "type": "SERVERLESS_ACTION_HOOK",
