@@ -37,12 +37,12 @@ exports.main = async (context = {}, sendResponse) => {
     "type": "statistics",
     "items": [
       {
-        "label": "Page vues",
+        "label": "Lead score",
         "number": "347",
         "description": {
           "type": "text",
           "format": "markdown",
-          "text": "[Learn more about this component](https://app.hubspot.com/l/docs/doc/platform/create-custom-crm-cards-with-projects#components)"
+          "text": "[savoir plus](https://app.hubspot.com/l/docs/doc/platform/create-custom-crm-cards-with-projects#components)"
         }
       },
       {
