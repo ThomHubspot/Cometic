@@ -37,8 +37,8 @@ exports.main = async (context = {}, sendResponse) => {
     "type": "statistics",
     "items": [
       {
-        "label": "Lead score",
-        "number": "347",
+        "label": "Health score",
+        "number": "347/400",
         "description": {
           "type": "text",
           "format": "markdown",
