@@ -30,6 +30,37 @@ exports.main = async (context = {}, sendResponse) => {
       "type": "SERVERLESS_ACTION_HOOK",
       "serverlessFunction": "exampleFunction"
     }
+  },  {
+    "type": "statistics",
+    "items": [
+      {
+        "label": "Page vues",
+        "number": "347",
+        "description": {
+          "type": "text",
+          "format": "markdown",
+          "text": "[Learn more about this component](https://app.hubspot.com/l/docs/doc/platform/create-custom-crm-cards-with-projects#components)"
+        }
+      },
+      {
+        "label": "Email raux d'ouverture",
+        "number": "18.4%",
+        "description": {
+          "type": "trend",
+          "value": "2.25%",
+          "direction": "decrease"
+        }
+      },
+      {
+        "label": "Temps passer sur le site Immo Sign",
+        "number": "64.2",
+        "description": {
+          "type": "trend",
+          "value": "2.1 seconds",
+          "direction": "increase"
+        }
+      }
+    ]
   },{
     "type": "divider",
     "distance": "small"
