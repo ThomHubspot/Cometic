@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Hello Syndic",
+    "location": "crm.record.tab",
+    "fetch": {
+      "targetFunction": "crm-card",
+      "objectTypes": [
+        {
+          "name": "p_copropri_t_s",
+          "propertiesToSend": ["code_postal"]
+        }
+      ]
+    }
+  }
+}

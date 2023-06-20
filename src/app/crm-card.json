@@ -1,0 +1,16 @@
+{
+ "type": "crm-card",
+ "data": {
+  "title": "Example CRM Card Hello syndic",
+  "location":"crm.record.sidebar"
+  "fetch": {
+   "targetFunction": "crm-card",
+   "objectTypes": [
+    {
+     "name": "p_copropri_t_s",
+     "propertiesToSend": ["code_postal"]
+    }
+   ]
+  }
+ }
+}

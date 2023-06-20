@@ -1,0 +1,15 @@
+{
+  "name": "Hello Syndic example app",
+  "description": "An example private app that contains a single card extension.",
+  "scopes": ["crm.objects.custom.read", "crm.objects.custom.write"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./example-card.json"
+        }
+      ]
+    }
+  }
+}
