@@ -7,7 +7,7 @@
       "targetFunction": "crm-card",
       "objectTypes": [
         {
-          "name": "contacst",
+          "name": "contacts",
           "propertiesToSend": ["code_postal"]
         }
       ]
