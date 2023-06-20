@@ -31,6 +31,9 @@ exports.main = async (context = {}, sendResponse) => {
       "serverlessFunction": "exampleFunction"
     }
   },{
+    "type": "divider",
+    "distance": "small"
+  },{
     "type": "statistics",
     "items": [
       {
