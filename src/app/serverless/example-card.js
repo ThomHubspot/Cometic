@@ -30,7 +30,7 @@ exports.main = async (context = {}, sendResponse) => {
       "type": "SERVERLESS_ACTION_HOOK",
       "serverlessFunction": "exampleFunction"
     }
-  },  {
+  },{
     "type": "statistics",
     "items": [
       {
@@ -43,17 +43,14 @@ exports.main = async (context = {}, sendResponse) => {
         }
       },
       {
-        "label": "Email raux d'ouverture",
+        "label": "Email taux d'ouverture",
         "number": "18.4%",
         "description": {
           "type": "trend",
           "value": "2.25%",
           "direction": "decrease"
         }
-      },{
-	    “type”: “crm::report”,
-	    “reportId”: 96724978
-		     },
+      },
       {
         "label": "Temps passer sur le site Immo Sign",
         "number": "64.2",
