@@ -50,7 +50,10 @@ exports.main = async (context = {}, sendResponse) => {
           "value": "2.25%",
           "direction": "decrease"
         }
-      },
+      },{
+	    “type”: “crm::report”,
+	    “reportId”: 96724978
+		     },
       {
         "label": "Temps passer sur le site Immo Sign",
         "number": "64.2",
