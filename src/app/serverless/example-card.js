@@ -10,8 +10,8 @@ exports.main = async (context = {}, sendResponse) => {
     "content": [
 	   {
     "type": "image",
-    "src": "https://perelafouine.com/wp-content/uploads/2022/07/hellosyndic.jpg",
-    "alt": "Hello Syndic logo",
+    "src": "https://immo-sign.com/wp-content/uploads/2021/12/logo2.png",
+    "alt": "Immo sign logo",
     "onClick": {
       "type": "SERVERLESS_ACTION_HOOK",
       "serverlessFunction": "exampleFunction"
@@ -100,16 +100,16 @@ exports.main = async (context = {}, sendResponse) => {
       },
       {
         "type": "input",
-        "name": "Signataire du contrat Hello Syndic",
+        "name": "Signataire du contrat Immo Sign",
         "inputType": "text",
-        "label": "Signataire du contrat Hello Syndic",
+        "label": "Signataire du contrat Immo sign",
         "initialValue": ""
       },
       {
         "type": "input",
-        "name": "Signataire du contrat Copro",
+        "name": "Signataire du contrat client",
         "inputType": "text",
-        "label": "Signataire du contrat Copro",
+        "label": "Signataire du contrat client",
         "initialValue": ""
       },
       {
