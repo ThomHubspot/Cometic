@@ -1,7 +1,7 @@
 {
  "type": "crm-card",
  "data": {
-  "title": "Example CRM Card Hello syndic",
+  "title": "Example CRM Card Comatec",
   "location":"crm.record.sidebar"
   "fetch": {
    "targetFunction": "crm-card",
