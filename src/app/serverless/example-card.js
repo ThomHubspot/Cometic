@@ -10,8 +10,8 @@ exports.main = async (context = {}, sendResponse) => {
     "content": [
 	   {
     "type": "image",
-    "src": "https://www.relations-publiques.pro/wp-content/uploads/2020/07/20200730095048-p1-document-qouh.png",
-    "alt": "Immo sign logo",
+    "src": "https://www.lafrenchfab.fr/storage/2022/02/logo-FR.jpg",
+    "alt": "Cometic logo",
     "onClick": {
       "type": "SERVERLESS_ACTION_HOOK",
       "serverlessFunction": "exampleFunction"
