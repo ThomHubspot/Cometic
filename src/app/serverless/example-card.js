@@ -19,18 +19,7 @@ exports.main = async (context = {}, sendResponse) => {
   }, {
     "type": "divider",
     "distance": "small"
-  },  {
-    "type": "heading",
-    "text": "Images"
-  },{
-    "type": "image",
-    "src": "https://v.seloger.com/s/width/1440/visuels/1/7/6/b/176b4xvn1yu2hx7emnqozkq8sf29p9g8sxx5ns5ts.jpg",
-    "alt": "Photo-bien",
-    "onClick": {
-      "type": "SERVERLESS_ACTION_HOOK",
-      "serverlessFunction": "exampleFunction"
-    }
-  },{
+  }, {
     "type": "divider",
     "distance": "small"
   },{
