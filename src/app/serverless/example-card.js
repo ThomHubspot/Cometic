@@ -19,9 +19,6 @@ exports.main = async (context = {}, sendResponse) => {
   }, {
     "type": "divider",
     "distance": "small"
-  }, {
-    "type": "divider",
-    "distance": "small"
   },{
     "type": "statistics",
     "items": [
