@@ -10,7 +10,7 @@ exports.main = async (context = {}, sendResponse) => {
     "content": [
 	   {
     "type": "image",
-    "src": "https://w7.pngwing.com/pngs/25/122/png-transparent-sap-se-business-logo-sap-erp-successfactors-business-blue-text-rectangle.png",
+    "src": "https://cdn.iconscout.com/icon/free/png-256/free-sap-3629036-3030393.png",
     "alt": "SAP logo",
     "onClick": {
       "type": "SERVERLESS_ACTION_HOOK",
