@@ -10,8 +10,8 @@ exports.main = async (context = {}, sendResponse) => {
     "content": [
 	   {
     "type": "image",
-    "src": "https://www.lafrenchfab.fr/storage/2022/02/logo-FR.jpg",
-    "alt": "Cometic logo",
+    "src": "https://download.logo.wine/logo/SAP_SE/SAP_SE-Logo.wine.png",
+    "alt": "SAP logo",
     "onClick": {
       "type": "SERVERLESS_ACTION_HOOK",
       "serverlessFunction": "exampleFunction"
