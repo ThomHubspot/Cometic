@@ -21,10 +21,6 @@ exports.main = async (context = {}, sendResponse) => {
     "distance": "small"
   },
       {
-        "type": "divider",
-        "distance": "small"
-      },
-      {
         "type": "heading",
         "text": "Devis en cours de validation"
       },
